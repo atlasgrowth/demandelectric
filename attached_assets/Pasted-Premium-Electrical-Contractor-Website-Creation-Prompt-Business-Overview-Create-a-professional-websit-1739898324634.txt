@@ -1,0 +1,415 @@
+Premium Electrical Contractor Website Creation Prompt
+Business Overview
+Create a professional website for Demand Electric LLC, an established electrical contractor with over 25 years of experience serving Mountain Pine, AR. The site should convey reliability, expertise, and trustworthy service with a modern, dynamic design that inspires confidence.
+Brand Guidelines
+
+Logo: Blue circular outline with orange lightning bolt and "DEMAND ELECTRIC" text
+Color Palette:
+
+Primary: Deep Blue (#003087) and Vibrant Orange (#FF9933)
+Secondary: Light Gray (#F5F5F5), Dark Gray (#333333), White (#FFFFFF)
+
+
+Typography:
+
+Headings: Montserrat Bold
+Body: Open Sans
+Accents: Oswald Semi-Bold
+
+
+Brand Voice: Experienced, trustworthy, straightforward, local
+
+Proposed Pages
+
+Home
+Services
+Contact
+
+Page Designs with Detailed Styling & Animations
+1. Home Page
+Header Section
+
+Styling Details:
+
+Transparent background transitioning to deep blue (#003087) with 95% opacity on scroll
+80px height with 15px padding on sides
+Logo: Left-aligned, 50px height with 10px margin
+Navigation: 18px Montserrat SemiBold with 20px spacing between items
+Phone button: Right-aligned with lightning icon, orange highlight on hover
+Subtle bottom border (1px) appears on scroll with 80% opacity
+
+
+Animation Specifics:
+
+Background transition occurs after 60px of scroll with 300ms ease timing
+Logo pulses subtly on page load (scale 1 to 1.05) with slight glow effect
+Nav items feature bottom border that grows from center (transform: scaleX)
+Mobile menu slides in from right (transform: translateX) with 350ms timing
+Each mobile nav item fades in with 50ms staggered delay
+
+
+
+Hero Section
+
+Styling Details:
+
+Full-height background using construction image with gradient overlay
+Overlay: linear-gradient(120deg, rgba(0,30,80,0.85), rgba(0,30,80,0.7))
+Headline: 72px Montserrat Black with -0.5px letter spacing and 1.1 line height
+Subheading: 24px Open Sans Light with 2px letter spacing, 40px below headline
+CTA primary: 18px button, 56px height, 220px width, #FF9933 background
+CTA secondary: Same dimensions with 2px border, transparent background
+Both buttons with 6px border radius and subtle shadow (0 4px 15px rgba(0,0,0,0.2))
+
+
+Animation Specifics:
+
+Headline words fade in sequentially (each word 200ms, 100ms delay between)
+Typewriter effect types at 100ms per character with 530ms cursor blink
+Background subtle zoom: Scale from 1.05 to 1.0 over 8s
+Buttons slide up 20px with fade-in, 400ms duration, 800ms delay from page load
+Hover effect: Buttons emit 15-20 small SVG particles that travel outward 25px
+Scroll indicator: Double chevron with 2s infinite pulse animation (opacity and transform)
+
+
+
+Services Overview
+
+Styling Details:
+
+Section padding: 120px top/bottom with responsive adjustment
+Background: #F5F7FA with circuit pattern overlay at 15% opacity
+Section headline: 48px Montserrat Bold, centered, with 5px orange accent line beneath
+Grid: 30px gap between cards with equal-height enforcement
+Cards: White background, border-radius 8px, box-shadow 0 5px 25px rgba(0,48,135,0.08)
+Card padding: 35px with transition on hover
+Icons: 80px circular containers with rgba(0,48,135,0.1) background
+Card typography: 22px headings, 16px body copy with 1.6 line height
+"Learn More" links positioned absolute bottom with right arrow icon
+
+
+Animation Specifics:
+
+Section headline reveals with slide-up (20px) and fade-in
+Cards animate in sequence with 75ms stagger between each
+Each card entrance: translateY(30px) to translateY(0) with fade-in, 500ms duration
+Card hover: Box-shadow intensifies to 0 8px 30px rgba(0,48,135,0.15)
+Icon containers pulse subtly on hover with slight color shift
+"Learn More" arrow shifts right 5px on hover with 200ms transition
+
+
+
+Why Choose Us
+
+Styling Details:
+
+Split design: 45% content, 55% image on desktop (stacks on mobile)
+Image styling: Border-radius 6px with subtle inner shadow
+Left content: 40px padding with diagonal gradient background
+Points arranged with 40px spacing between items
+Icons: 60px container size with gradient backgrounds
+Stat counters: 36px Montserrat Bold with orange highlight for numbers
+Text alignment: Left-aligned on desktop, center on mobile
+
+
+Animation Specifics:
+
+Experience counter animates from 0 to 25 over 2s with easeOutQuart timing
+Shield icon builds segment by segment (3 segments, 200ms each)
+Wallet icon unfolds with 2-stage animation (300ms total)
+Checkmark draws itself with SVG stroke animation (600ms duration)
+Each point enters with slide-from-left (30px) and fade-in
+125ms delay between each point's animation
+Background gradient shifts slightly (5%) on scroll
+
+
+
+Process Section
+
+Styling Details:
+
+Background: Deep blue (#002260) with electrical grid overlay at 10% opacity
+Padding: 100px top/bottom with full-width design
+Process steps: Connected by 3px line with gradient color
+Step numbers: 60px diameter circles with aqua (#4ECDC4) background
+Step containers: 40% opacity white background with 10px border radius
+Typography: White text with 26px headings, 16px descriptions
+Line connectors positioned absolutely between elements
+
+
+Animation Specifics:
+
+"Electrical current" runs along connecting line as user scrolls
+Current effect: Animated gradient that moves along the line (1.2s duration)
+Step circles pulse with 3s interval (scale 1 to 1.1) when active
+Icons within steps rotate subtly (15°) on hover
+Step content fades in with 300ms delay after number appears
+Mobile animation: Vertical spine with branches to each step
+Scroll-based activation with IntersectionObserver implementation
+
+
+
+Testimonials
+
+Styling Details:
+
+Clean background: White with subtle pattern overlay
+Testimonial cards: Light shadow, 20px border radius, 40px padding
+Quote styling: 30px custom quote marks in light gray
+Star ratings: 18px golden stars with spacing
+Attribution: 16px name with location in lighter gray
+Navigation: 10px dots below slider, 50px arrow buttons on sides
+
+
+Animation Specifics:
+
+Slider transition: 600ms cubic-bezier(0.4, 0, 0.2, 1)
+Cards slide in from right with slight fade effect
+Star ratings illuminate sequentially (120ms per star)
+Active navigation dot: Pulse effect with electrical current visualization
+Navigation arrows: Circular reveal effect on hover (200ms)
+Auto-advance: 6s timing with pause on hover/focus
+Reduced motion option for accessibility
+
+
+
+Call-to-Action
+
+Styling Details:
+
+Full-width design with electrical work background image
+Overlay: Radial gradient with center at 75% horizontal position
+Text: Center-aligned with 56px heading, 22px subheading
+CTA button: 60px height, 280px width, orange gradient background
+Button typography: 20px Montserrat Bold, uppercase, letter-spacing 1px
+Phone display: 28px semi-bold with icon, click-to-call enabled
+120px vertical padding with responsive adjustment
+
+
+Animation Specifics:
+
+Background parallax: 20% slower movement than scroll speed
+Animated circuit patterns: SVG paths with occasional pulse effects
+Heading entrance: Fade-in with 20px slide-up, 500ms duration
+CTA button: Gradient shifts direction on hover (45° rotation)
+Pulse animation on button: Subtle glow effect (0 0 20px rgba(255,153,51,0.5))
+Hover scale: Button grows to 1.03x size with 250ms transition
+
+
+
+2. Services Page
+Hero Section
+
+Styling Details:
+
+60vh height with electrical panel background
+Blue color overlay: rgba(0,48,135,0.75)
+Breadcrumb: 16px Montserrat Regular with custom separators
+Headline: 56px with 1.2 line height, max-width 800px
+Subheading: 22px with 30px spacing below headline
+Contained within 1200px max-width container
+
+
+Animation Specifics:
+
+Page transition: Content slides up 30px with fade-in
+Background subtle zoom effect (1.05x to 1.0x) over 6s
+Lightning bolt separators flash briefly on hover
+Headline reveals word by word (150ms per word)
+Breadcrumb links grow slightly (scale 1.1) on hover
+
+
+
+Services Categories
+
+Styling Details:
+
+Tab design: 50px height with 30px horizontal padding
+Inactive tabs: 20% opacity background, active tab 100%
+Bottom border: 3px solid for active tab, 1px for inactive
+Tab typography: 18px Montserrat SemiBold
+Content container: White background, 40px padding, 8px border radius
+Service listings: Grid layout with 28px gap
+Service icons: Two-tone design using brand colors
+
+
+Animation Specifics:
+
+Tab switching: 300ms transition with cubic-bezier easing
+Bottom border slides from left edge to right (transform-origin)
+Content crossfades with 350ms duration
+"Spark" effect at transition point using 5-10 particle elements
+Service items stagger in with 75ms delay between each
+Checkmarks in lists animate sequentially (draw SVG path)
+Mobile adaptation: Vertical tabs with left border indication
+
+
+
+Featured Services
+
+Styling Details:
+
+Alternating sections: White and #F8F9FC backgrounds
+Diagonal section dividers (-5° angle) rather than horizontal
+Featured images: 45% width on desktop, full-width on mobile
+60px section padding with responsive adjustments
+"Most Popular" badge: Orange background with 6px radius
+Benefit lists: Custom bullet points with icon indicators
+CTA per service: Subdued styling to avoid overwhelming
+
+
+Animation Specifics:
+
+Images scale subtly (1.05x) on hover with 1.5s transition
+Slow zoom effect on initial load (scale 1.02 to 1)
+Service descriptions slide in from opposite side of image
+"Popular" badges pulse with golden glow every 3s
+Benefit icons draw themselves as user scrolls to them
+Sequential animation for list items (40ms stagger)
+
+
+
+Service Area Map
+
+Styling Details:
+
+Map container: 60vh height with border radius
+Mountain Pine centered with 30-mile radius overlay
+Overlay styling: Blue semi-transparent circle with feathered edge
+Service area listings: 3-column grid with icon markers
+Zip code checker: 50px height input with button
+Results feedback: Color-coded with icon indicators
+
+
+Animation Specifics:
+
+Pulsing radius effect: Scale 1 to 1.05 with opacity shift
+Service areas illuminate when hovered (brighten effect)
+Zip field expands slightly on focus with border transition
+Validation animation: Shake effect for invalid zip
+Success animation: Green checkmark with circular reveal
+Mobile adaptation: Pinch-zoom functionality preserved
+
+
+
+3. Contact Page
+Contact Hero
+
+Styling Details:
+
+Background: Dark gradient with circuit pattern overlay
+Overlay animation: Paths occasionally complete with subtle glow
+Typography: 60px headline, 22px supporting text
+Visual response indicator: Clock icon showing "same-day"
+90px vertical padding with responsive adjustment
+Max-width container: 1100px centered
+
+
+Animation Specifics:
+
+Headline entrance: Fade-in with slight upward movement
+Circuit animations: SVG paths that "complete" randomly
+Particle effects resembling electrical signals
+Clock icon animation: Hands move to show quick response
+Scroll indicator pulses with 2s interval
+
+
+
+Contact Form
+
+Styling Details:
+
+Form container: White background, 15px radius, 40px padding
+Fields: 54px height, 2px borders with 10px radius
+Labels: 14px Montserrat Medium, transform on focus
+Submit button: Full-width, orange gradient, 60px height
+Error states: Red accents with subtle shake animation
+Progress indicator: Bottom border fills as fields complete
+
+
+Animation Specifics:
+
+Field focus: Label transitions from placeholder to top position
+Border color transitions on focus/valid/error states
+Progress indicator fills proportionally to completed fields
+Submit button "charges up" as form completes (gradient animation)
+Success state: Form transforms to confirmation message
+Checkmark draws itself on successful submission
+
+
+
+Contact Information
+
+Styling Details:
+
+Split design: 40% contact info, 60% map on desktop
+Contact blocks: Icon left, information right
+Phone styling: 28px semi-bold with prominent position
+Address block: Multi-line with map link
+Business hours: Table format with today highlighted
+"Open Now" indicator when applicable
+
+
+Animation Specifics:
+
+Phone number pulses subtly to draw attention
+Icons use micro-animations on hover (rotate, pulse)
+Map zooms slightly when hovered
+"Open Now" indicator has subtle glow effect
+Address link grows slightly on hover with arrow animation
+
+
+
+FAQ Section
+
+Styling Details:
+
+Accordion design: 60px closed height, dynamic open height
+Question styling: 20px Montserrat SemiBold with icon right
+Answer padding: 30px with slightly lighter background
+Category tabs above: Pill-shaped selectors
+30px spacing between questions
+Bottom CTA: Subdued design to avoid competing with main contact
+
+
+Animation Specifics:
+
+Smooth accordion expansion with 350ms timing
+Icon rotates 45° when expanded
+Content reveal with slight fade-in
+Category filter: Smooth transition between question sets
+Electrical "spark" animation appears briefly when opening item
+Height transition uses cubic-bezier for natural movement
+
+
+
+Technical Specifications
+Animations & Effects
+
+Page transitions use combination of opacity and transform properties
+All animations respect reduced-motion preferences
+Scroll-triggered animations use IntersectionObserver for performance
+Minimum frame rate target: 60fps on modern devices
+Critical animations (navigation, forms) prioritized over decorative ones
+Electrical effects created with SVG and CSS rather than heavy scripts
+Strategic animation staging to avoid overwhelming visual experience
+
+Performance Requirements
+
+Initial load under 2 seconds on 4G connection
+Core content visible within 1 second (LCP optimization)
+Deferred loading for below-fold animations and effects
+Image optimization: WebP format with JPEG fallbacks
+Critical CSS inlined in head for fast rendering
+Font loading strategy: FOUT with fallback styles
+Resource hints (preconnect, prefetch) for key assets
+
+Interactive Elements
+
+All interactive elements have visible :focus states
+Touch targets minimum 44×44px on mobile
+Gesture support for sliders (swipe, pinch)
+Appropriate ARIA attributes for custom components
+Custom cursor effects only on desktop devices
+Tooltips for complex features with 300ms delay
+Form validation provides real-time feedback

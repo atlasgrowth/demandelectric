@@ -1,0 +1,77 @@
+Detailed Website Enhancement Prompt for Demand Electric
+Critical Quality & Branding Fixes
+
+Image Quality & Resolution
+
+Replace all current construction images with high-resolution alternatives (minimum 1920x1080px)
+Apply subtle image compression (quality 85%) to maintain fast loading while preserving clarity
+Add gradient overlay (rgba(0,30,80,0.5)) to hero image for better text contrast
+Implement proper image optimization with srcset attributes for responsive delivery
+
+
+Logo Enhancement
+
+Increase logo size by 40% in header (minimum 120px height)
+Create crisp SVG version of logo to replace current pixelated version
+Add subtle drop shadow to logo (0px 2px 4px rgba(0,0,0,0.2))
+Ensure logo maintains proportions across all device sizes
+Position logo with proper padding (24px all sides)
+
+
+Typography & Readability
+
+Increase hero text contrast with text-shadow (0px 2px 4px rgba(0,0,0,0.5))
+Change hero text color to pure white (#FFFFFF) for maximum readability
+Increase hero headline font size to 72px on desktop, 48px on tablet, 36px on mobile
+Apply semi-transparent dark background behind hero text (rgba(0,0,0,0.6), 80% width)
+Increase subheading line height to 1.6 for better readability
+
+
+Contact Information Consistency
+
+Replace ALL instances of placeholder phone number with (501) 693-6229
+Standardize phone format with parentheses and hyphens
+Increase phone number visibility with 20% larger font size and orange accent color
+Add phone icon before all number instances
+Make all phone numbers clickable (tel: links) with hover state
+
+
+Service Description Accuracy
+
+Remove ALL mentions of "24/7" and "Emergency" services
+Replace "Emergency Services" card with "Commercial Services"
+Update all service descriptions to remove time-sensitive language
+Change after-hours messaging to indicate business hours only
+Update meta description and schema markup to reflect correct availability
+
+
+
+Chat Widget Implementation
+
+Design Specifications
+
+Position: Bottom right corner, 24px margin from edges
+Initial state: Collapsed button with logo (60px diameter)
+Expanded state: 320px width, 400px height maximum
+Background: White (#FFFFFF) with blue header (#003087)
+Logo placement: Centered in header, 40px height
+Border radius: 12px with subtle shadow (0px 4px 12px rgba(0,0,0,0.1))
+
+
+Functionality Requirements
+
+Initial greeting message: "Thanks for visiting Demand Electric! How can we help with your electrical needs today?"
+Office hours display: "We're currently [open/closed]. Business hours: Mon-Fri 8AM-5PM"
+Form fields: Name, Phone, Email, Message
+Submit button: Orange (#FF9933) with white text
+Mobile responsive behavior: Full-width expansion on small screens
+Sound: Subtle notification sound on open/message (toggle-able)
+
+
+Visual Integration
+
+Matched font family with website (Montserrat/Open Sans)
+Consistent color scheme with main site
+Branded header with logo centered
+Subtle entrance animation (scale + fade, 300ms)
+Pulsing notification dot when minimized (after inactivity)
